@@ -1,1 +1,1 @@
-"# UFC Fight Explorer Project" 
+UFC Fight Explorer Project
