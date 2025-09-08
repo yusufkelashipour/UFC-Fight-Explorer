@@ -15,10 +15,6 @@ A full-stack web application for exploring UFC fight statistics and fighter data
 * **TypeScript** - Type-safe JavaScript
 * **Tailwind CSS** - Utility-first CSS framework
 
-### Database
-* **PostgreSQL** - Relational database
-* **pgAdmin** - Database management interface
-
 ### Data Processing
 * **Python** - Data exploration and analysis
 * **pandas** - Data manipulation library
