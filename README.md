@@ -5,7 +5,7 @@ A full-stack web application for exploring UFC fight data.
 
 🚀 Tech Stack
 
-Frontend
+**Frontend**
 
 Next.js 14
  (React Framework)
@@ -16,7 +16,7 @@ Tailwind CSS
 
 ESLint
 
-Backend
+**Backend**
 
 Spring Boot
  (Java)
