@@ -1,25 +1,55 @@
-UFC Fight Explorer Project
+UFC Fight Explorer
+A full-stack web application for exploring UFC fight statistics and fighter data.
+Tech Stack
+Backend
 
-A full-stack web application for exploring UFC fight data.
+Spring Boot 3.5.5 - REST API framework
+Java 21 - Programming language
+Maven - Dependency management
+OpenCSV - CSV data processing
 
-🚀 Tech Stack
+Frontend
 
-**Frontend**
-- Next.js 14 (React Framework)
-- TypeScript
-- Tailwind CSS
-- ESLint
+Next.js 15 - React framework
+TypeScript - Type-safe JavaScript
+Tailwind CSS - Utility-first CSS framework
 
-**Backend**
+Database
 
-- Spring Boot (Java)
-- Maven
-- OpenCSV (for CSV parsing)
+PostgreSQL - Relational database
+pgAdmin - Database management interface
 
-**Data**
+Data Processing
 
-- UFC fight dataset in CSV format
-- Tools & Deployment
-- Git & GitHub for version control
-- Node.js & npm for frontend dependency management
-- Java & Maven for backend build/run
+Python - Data exploration and analysis
+pandas - Data manipulation library
+
+Development Tools
+
+Git/GitHub - Version control
+VS Code - Code editor
+Node.js & npm - JavaScript runtime and package manager
+
+API Endpoints
+
+GET /api/fighters - Retrieve all fighters
+GET /api/fighters/search?name={name} - Search fighters by name
+GET /api/test - API health check
+
+Features
+
+RESTful API serving UFC fighter statistics
+Fighter search functionality with query parameters
+Responsive web interface with search capabilities
+CSV data processing (6,500+ fight records)
+Error handling and data validation
+
+Setup
+Backend
+bashcd backend
+./mvnw spring-boot:run
+Frontend
+bashcd frontend
+npm run dev
+Access the application at http://localhost:3000
+API available at http://localhost:8080/api
