@@ -25,7 +25,7 @@ Maven
 
 OpenCSV (for CSV parsing)
 
-Data
+**Data**
 
 UFC fight dataset in CSV format
 
